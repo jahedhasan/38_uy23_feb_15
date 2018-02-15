@@ -1,0 +1,41 @@
+$pc: rgba(250, 128, 114, .6);
+$second-color: tomato;
+$third-color: maroon;
+$fourth-color: purple;
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding:  0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $pc;
+}
+.nur {
+  .monjur {
+    background-color: darken($pc, 5%);
+    .farhad {
+      background-color: darken($pc, 10%);
+      .mozahed {
+        background-color: darken($pc, 20%);
+        .sakhawat {
+          background-color: darken($pc, 30%);
+        }
+      }
+    }
+  }
+}
+
+.padding {
+  padding: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+
+
+
+}

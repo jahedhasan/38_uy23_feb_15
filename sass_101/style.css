@@ -1,0 +1,27 @@
+html, body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(250, 128, 114, 0.6); }
+
+.nur .monjur {
+  background-color: rgba(249, 106, 89, 0.6); }
+  .nur .monjur .farhad {
+    background-color: rgba(248, 84, 65, 0.6); }
+    .nur .monjur .farhad .mozahed {
+      background-color: rgba(247, 39, 15, 0.6); }
+      .nur .monjur .farhad .mozahed .sakhawat {
+        background-color: rgba(204, 27, 7, 0.6); }
+
+.padding {
+  padding: 30px;
+  font-size: 20px;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white; }
